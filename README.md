@@ -12,6 +12,14 @@ The ranking system processes this data and calculates a score for each trader ba
 - **Win Rate**: The percentage of profitable trades.
 - **Maximum Drawdown (MDD)**: The largest peak-to-trough decline in cumulative profit.
 
+
+
+<p align="center">
+    <a>
+      <img src="https://github.com/gurinder-25/image-search-engine.github.io/assets/132286862/e26e2784-dce9-4dce-b2bc-8156fd1b7645" alt="Banner" style="width: 500px; margin-left: 100px; border-radius: 10px;">
+    </a>
+</p>
+
 The final result is a ranking of traders based on their overall performance, providing insights into the top traders for investment or analysis purposes.
 
 ## File Structure
@@ -61,7 +69,11 @@ This output CSV file allows for easy review and further analysis of the top-perf
 
 ### Sample Visualizations (Images will be updated later)
 
-![Sample Image 1](<img src="https://github.com/gurinder-25/image-search-engine.github.io/assets/132286862/e26e2784-dce9-4dce-b2bc-8156fd1b7645" alt="Banner" style="width: 500px; margin-left: 100px; border-radius: 10px;">)
+<p align="center">
+    <a>
+      <img src="https://github.com/gurinder-25/image-search-engine.github.io/assets/132286862/e26e2784-dce9-4dce-b2bc-8156fd1b7645" alt="Banner" style="width: 500px; margin-left: 100px; border-radius: 10px;">
+    </a>
+</p>
 
 This image represents a visualization of the top-performing traders' rank scores.
 
