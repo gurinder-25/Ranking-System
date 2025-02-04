@@ -61,7 +61,7 @@ This output CSV file allows for easy review and further analysis of the top-perf
 
 ### Sample Visualizations (Images will be updated later)
 
-![Sample Image 1](assets/ranking1.png)
+![Sample Image 1](<img src="https://github.com/gurinder-25/image-search-engine.github.io/assets/132286862/e26e2784-dce9-4dce-b2bc-8156fd1b7645" alt="Banner" style="width: 500px; margin-left: 100px; border-radius: 10px;">)
 
 This image represents a visualization of the top-performing traders' rank scores.
 
