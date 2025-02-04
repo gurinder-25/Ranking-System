@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Report</title>
+  <link rel="stylesheet" href="styles/report.css">
+  <link rel="icon" href="assests/icon1.png">
+</head>
+<body>
+  <header>
+    Report
+  </header>
+
+  <main>
+    <h2>Project Images and Description</h2>
+
+    <div class="image-paragraph-container">
+      <div class="image-paragraph">
+        <img src="assests/i1.png" alt="Image 1">
+        <h3>Trade History Parsing and Flattening</h3>
+        <p>This block of code defines a function <b>safe_eval()</b> to safely evaluate strings in the <b>'Trade_History'</b> column of the dataset using <b>ast.literal_eval()</b>. It converts valid string representations of Python data structures (like lists or dictionaries) into actual Python objects. Invalid entries are converted to None and dropped from the DataFrame. The function <b>extract_trade_data()</b> flattens each trade entry in the <b>'Trade_History'</b> column, adding the associated <b>'Port_IDs'</b> to each trade and creating a list of all individual trades. The flattened trades are then combined into a new DataFrame <b>'df_trades'</b> containing all trades with relevant details, making the data easier to analyze and process.</p>
+      </div>
+      <div class="image-paragraph">
+        <img src="assests/i2.png" alt="Image 2">
+        <h3>Weighted Scoring System</h3>
+        <p>This block defines a dictionary weights, which assigns different importance <b>'weights'</b> to various trading performance metrics such as <b>'Total_ROI'</b>, <b>'Total_PnL'</b>, <b>'Sharpe_Ratio'</b>, <b>'Win_Rate'</b>, and <b>'Max_Drawdown'</b>. The weights are used later in the code to calculate a composite rank score for each account. The goal is to evaluate accounts based on a combination of performance factors, with different aspects contributing differently to the final rank.</p>
+      </div>
+      <div class="image-paragraph">
+        <img src="assests/i3.png" alt="Image 3">
+        <h3>Metrics DataFrame Creation</h3>
+        <p>This block constructs a new DataFrame metrics that aggregates performance metrics for each trading account. It computes metrics like <b>'Total_PnL'</b>, <b>'Total_ROI'</b>, <b>'Sharpe_Ratio'</b>, <b>'Max_Drawdown'</b>, <b>'Win_Rate'</b>, and the count of total and winning positions for each account (grouped by <b>'Port_IDs'</b>). The metrics are rounded for readability, and the DataFrame is reset to remove any previous index. This resulting DataFrame is a structured summary of key performance indicators for each account, providing the foundation for further analysis or ranking.</p>
+      </div>
+    </div>
+
+    <button onclick="window.location.href='results.html'">Next</button>
+  </main>
+
+  <footer>
+    <p>Designed by Gurinder Singh |<a href="https://www.linkedin.com/in/gurinder-singh-399610226/" target="_blank" class="footer-links">LinkedIn  </a> |<a href="https://github.com/gurinder-25" target="_blank" class="footer-links">GitHub</a></p>
+  </footer>
+</body>
+</html>

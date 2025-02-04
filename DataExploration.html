@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Exploration</title>
+  <link rel="stylesheet" href="styles/DataExploration.css">
+  <link rel="icon" href="assests/icon1.png">
+</head>
+<body>
+  <header>
+    Data Exploration
+  </header>
+
+  <main>
+    <div class="task-description">
+      <p>This project involves analyzing trade data to evaluate the financial performance of trading portfolios. The dataset contains the trade history of multiple accounts and is processed to calculate key metrics like Profit and Loss (PnL), Return on Investment (ROI), Sharpe Ratio, and Maximum Drawdown (MDD). Key challenges in working with this data include:</p>
+
+      <h3>Data Columns:</h3>
+      <ul>
+        <li><strong>Trade_History:</strong> Contains trade details in a string format that needs to be parsed into a structured list.</li>
+        <li><strong>Port_IDs:</strong> Identifies each trading account or portfolio.</li>
+        <li><strong>Quantity:</strong> Represents the number of assets traded.</li>
+        <li><strong>Price:</strong> The price at which the asset was traded.</li>
+        <li><strong>RealizedProfit:</strong> Reflects the profit or loss from the trade after execution.</li>
+      </ul>
+
+      <h3>Challenges and Insights:</h3>
+      <ul>
+        <li><strong>Trade_History Parsing:</strong> Parsing the 'Trade_History' column using <code>ast.literal_eval()</code> to handle string-encoded lists.</li>
+        <li><strong>Missing Data Handling:</strong> Dropping rows with missing or invalid trade data to ensure the analysis remains accurate.</li>
+        <li><strong>Account-Level Grouping:</strong> Grouping trades by <code>Port_IDs</code> to calculate portfolio-level metrics.</li>
+        <li><strong>Data Flattening:</strong> Converting trade data into a structured form, making it easier to analyze individual trades while maintaining their relationship to portfolios.</li>
+      </ul>
+
+      <h3>Key Metrics for Analysis:</h3>
+      <ul>
+        <li><strong>Realized Profit (PnL):</strong> Profit or loss from each trade.</li>
+        <li><strong>Quantity and Price:</strong> Used to calculate the investment made for each trade and ROI.</li>
+        <li><strong>Cumulative Profit:</strong> Running total of profits for each account, useful for calculating Maximum Drawdown (MDD).</li>
+      </ul>
+
+      <p>This approach allows us to analyze the overall performance of trading portfolios across multiple key metrics, providing valuable insights into their effectiveness.</p>
+
+      <img src="assests/csvfile.png" alt="Sample Data Visualization" style="max-width: 40%; height: auto; display: block; margin: 20px auto;">
+
+      <p>Click below to view the project results and see how the rankings are calculated based on these metrics:</p>
+      <a href="https://drive.google.com/drive/folders/1ioZ56B5-zTmFuPrT7IihjOVozAgrXxhl" class="button" target="_blank">View Data File</a>
+    </div>
+    <button onclick="window.location.href='report.html'">Next</button>
+  </main>
+
+  <footer>
+    <p>Designed by Gurinder Singh |<a href="https://www.linkedin.com/in/gurinder-singh-399610226/" target="_blank" class="footer-links">LinkedIn  </a> |<a href="https://github.com/gurinder-25" target="_blank" class="footer-links">GitHub</a></p>
+  </footer>
+</body>
+</html>
