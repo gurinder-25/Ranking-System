@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  .dashboard-container {
+    display: flex;
+    height: 100vh;
+  }
+
+  .sidebar {
+    width: 240px;
+    background-color: #1e293b;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .sidebar h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .nav-links a {
+    display: block;
+    padding: 0.75rem 1rem;
+    color: white;
+    text-decoration: none;
+    margin: 0.5rem 0;
+    background-color: #334155;
+    border-radius: 8px;
+  }
+
+  .nav-links a:hover {
+    background-color: #2563eb;
+  }
+
+  .main-content {
+    flex-grow: 1;
+    padding: 2rem;
+  }
+
+  .header {
+    background-color: #2563eb;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+  }
+
+  .header h1 {
+    font-size: 1.75rem;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-rows: repeat(2, 1fr); /* 2 rows */
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
+  }
+
+  .card:hover {
+    transform: translateY(-8px);
+  }
+
+  .card h2 {
+    color: #2563eb;
+    margin-bottom: 0.5rem;
+  }
+
+  /* Style for images */
+  .card img {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    max-height: 150px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+  }
+
+  /* Style for buttons */
+  .card button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+
+  .card button:hover {
+    background-color: #1e40af;
+  }
