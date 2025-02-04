@@ -16,7 +16,7 @@ The ranking system processes this data and calculates a score for each trader ba
 
 <p align="center">
     <a>
-      <img src="https://github.com/gurinder-25/image-search-engine.github.io/assets/132286862/e26e2784-dce9-4dce-b2bc-8156fd1b7645" alt="Banner" style="width: 500px; margin-left: 100px; border-radius: 10px;">
+      <img src="https://github.com/gurinder-25/Ranking-System/blob/main/assests/ranking2.png" alt="Banner" style="width: 500px; margin-left: 100px; border-radius: 10px;">
     </a>
 </p>
 
@@ -71,19 +71,26 @@ This output CSV file allows for easy review and further analysis of the top-perf
 
 <p align="center">
     <a>
-      <img src="https://github.com/gurinder-25/image-search-engine.github.io/assets/132286862/e26e2784-dce9-4dce-b2bc-8156fd1b7645" alt="Banner" style="width: 500px; margin-left: 100px; border-radius: 10px;">
+      <img src="https://github.com/gurinder-25/Ranking-System/blob/main/assests/dashboard1.png" alt="Banner" style="width: 500px; margin-left: 100px; border-radius: 10px;">
     </a>
 </p>
 
+This image represents a visualization of the Basic Login/ Dashboard.
+
+<p align="center">
+    <a>
+      <img src="https://raw.githubusercontent.com/gurinder-25/Ranking-System/refs/heads/main/assests/ranking3.webp" alt="Banner" style="width: 500px; margin-left: 100px; border-radius: 10px;">
+    </a>
+</p>
+
+This image displays the how we process and then analyze data files from various sources.
+
+<p align="center">
+    <a>
+      <img src="https://github.com/gurinder-25/Ranking-System/blob/main/assests/result11111.png" alt="Banner" style="width: 500px; margin-left: 100px; border-radius: 10px;">
+    </a>
+</p>
 This image represents a visualization of the top-performing traders' rank scores.
-
-![Sample Image 2](assets/sample_image_2.png)
-
-This image displays the distribution of traders based on their total PnL and ROI.
-
-![Sample Image 3](assets/sample_image_3.png)
-
-This image showcases the Sharpe ratio and win rate of different traders.
 
 ---
 
